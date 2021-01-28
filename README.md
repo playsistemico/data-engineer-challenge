@@ -6,7 +6,7 @@ Dada esta necesidad se pide generar una solución que contemple las siguientes c
 
 1.- Debe tener la flexibilidad suficiente para procesar archivos de texto ancho fijo y delimitados.
 
-2.- Como input debe recibir los siguientes parámetros en un archivo:
+2.- Como input debe recibir los siguientes parámetros:
 
 	a.- El path de origen del archivo a ser ingestado;
 	b.- El path destino donde se escribirá ese archivo;
@@ -41,7 +41,7 @@ Preguntas para charlar en la devolución:
 2. Cuándo tiene sentido hacer un broadcast de un dataframe?
 3. Para qué requerimiento implementarías una cola de mensajes en una solución orientada a datos?
 4. Si decidiste no hacerlo con Spark, podrías implementar la misma solución en Spark? Qué partes del código crees que deberian cambiar de tu solución por código de Spark?
-5. Creés que un archivo de configuración es la mejor solución? Lo harías de la misma manera?
+5. Cuál crees que es la mejor manera para recibir los parámetros?
 
 ### Criterios de evaluación
 Tener en cuenta:
