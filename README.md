@@ -6,7 +6,7 @@ Dada esta necesidad se pide generar una solución que contemple las siguientes c
 
 1.- Debe tener la flexibilidad suficiente para procesar archivos de texto ancho fijo y delimitados.
 
-2.- Como input debe recibir los siguientes parámetros:
+2.- Como input debe recibir un archivo con los siguientes parámetros:
 
 	a.- El path de origen del archivo a ser ingestado;
 	b.- El path destino donde se escribirá ese archivo;
@@ -37,11 +37,11 @@ El parquet de salida debe estar particionado por la columna stock.
 
 
 Preguntas para charlar en la devolución:
-1. Qué problemas se generaban por los Skewed Joins, hasta Spark 3.0.0?
-2. Cuándo tiene sentido hacer un broadcast de un dataframe?
+1. Si decidiste no hacerlo con Spark, podrías implementar la misma solución en Spark? Qué partes del código crees que deberian cambiar de tu solución por código de Spark?
+2. De qué otras maneras podrías recibir los parámetros de entrada? Cuál crees que es la mejor?
 3. Para qué requerimiento implementarías una cola de mensajes en una solución orientada a datos?
-4. Si decidiste no hacerlo con Spark, podrías implementar la misma solución en Spark? Qué partes del código crees que deberian cambiar de tu solución por código de Spark?
-5. Cuál crees que es la mejor manera para recibir los parámetros?
+4. Qué problemas se generaban por los Skewed Joins, hasta Spark 3.0.0?
+5. Cuándo tiene sentido hacer un broadcast de un dataframe?
 
 ### Criterios de evaluación
 Tener en cuenta:
