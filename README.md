@@ -52,3 +52,7 @@ Tener en cuenta:
 * Pragmatismo.
 
 (Los criterios de evaluación son guías para brindar mayor claridad al candidato en términos de cómo su trabajo será calificado, esta evaluación se centrará en dichos conceptos pero no necesariamente se limitará a los mismos)
+
+## Forma de entrega
+
+Se debe subir la solución a un repositorio público y luego compartir el link para acceder.
